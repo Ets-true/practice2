@@ -10,14 +10,10 @@ public class Main {
         Book book = new Book();
         Ball ball = new Ball();
 
-
         DogFarm farm = new DogFarm();
-        Dog puppy = new Dog("snowball", 2);
-
-
-        System.out.println(puppy);
-
-        farm.addDog(puppy);
+        Dog dog_1 = new Dog("Jack", 5);
+        System.out.println(dog_1);
+        farm.addDog(dog_1);
 
     }
 
